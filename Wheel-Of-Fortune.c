@@ -109,14 +109,14 @@ int game_play(){
 int turn_the_wheel(){
     srand(time(NULL));
     wheel_position=1+rand()%6;
-    printf("Wheel Position: %d \n",wheel_position);                    // Control for wheel positions
+    //printf("Wheel Position: %d \n",wheel_position);                    // Control for wheel positions
 }
 
 int number_generator(){
     int generated_number;
     srand(time(NULL));
     generated_number=1+rand()%10;
-    printf("Generated Number= %d \n",generated_number);                // Control for generated  number
+    //printf("Generated Number= %d \n",generated_number);                // Control for generated  number
     return generated_number;
 }
 
