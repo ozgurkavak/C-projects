@@ -1,2 +1,2 @@
 # C-projects
-# In this section will be better
+# New project is coming soon
